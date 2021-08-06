@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 22px 0;
+}
+
+.header__container {
+    width: 75%;
+    margin: auto;   /*  расположить по середине */
+    display: flex;  /*  расположить блоки */
+    justify-content: space-between; /*  расположить в разные стороны */
+}
+
+.header__container a {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B8BECD;
+
+    padding: 25px 0px;
+    margin-right: 34px;
+}
+
+.header__container a:hover {
+    color: #202336;
+
+}
+
+.header__logo {
+    margin: auto 0;   /*  расположить по середине */
+
+}
+
+#menu-checkbox {
+    display: none;
+}
+
+nav {
+
+}
+
+.main-menu {
+
+    display: flex;  /* расположить горизонтально */
+}
+
+.main-menu li {
+    list-style: none;
+}
+
+
+.main-menu li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.main-menu li button{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    background-color: #FB8F1D;
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    cursor: pointer;
+
+    padding: 10px 25px;
+}
+
+.main-menu li button:hover{
+    color: white;
+    background-color: #c46f15;
+}
+
+.main-menu li:nth-child(5) {
+    margin-right: 18px;
+}
+
+.main-menu li:nth-child(5) button{
+    border: 1px solid #FB8F1D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: white;
+    color: #FB8F1D;
+
+    padding: 10px 35px;
+}
+
+.main-menu li:nth-child(5) button:hover{
+    background-color: white;
+    color: #FB8F1D;;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width:618px) {
+    .header__container {
+        width: 80%;
+
+        display: flex;
+        justify-content: space-between;  /* равномерно распределяет все элементы по ширине блока*/
+    }
+    .main-menu {
+        display: none;
+        position: relative;
+        top: 20px;
+    }
+    .main-menu li{
+        width: 100%;
+        display: block;
+        font-size: 12px;
+    }
+    .main-menu li:nth-child(5) {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    .main-menu a {
+        display: block;
+        padding: 8px;
+    }
+    .toggle-button {
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        color: black;
+        margin-top: 15px;
+    }
+    .toggle-button:after {  /* будет написано MENU */
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #9b9ea7;
+        font-weight: bold;
+
+        content: attr(data-open);
+        display: block;
+    }
+    #menu-checkbox:checked + nav[role="navigation"] .main-menu {    /* при нажатии открывает список меню */
+        display: block;  
+    }
+    #menu-checkbox:checked + nav[role="navigation"] .toggle-button::after {    /* когда будет открыто то будет написано CLOSE */
+        content: attr(data-close); 
+    }
+    .header__container li{
+        margin: 0 auto;
+    }
+    .header__container a {
+        margin-right: 0px;
+        text-align: center;
+    }
+    .header__logo {
+        margin: 0 0;   /*  расположить по середине */
+    }
+}

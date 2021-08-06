@@ -1,0 +1,749 @@
+main {
+    padding: 40px 0;
+    position: relative;
+}
+
+.container {
+    width: 81%;
+
+    margin-left: 12.5%;
+}
+
+/* =============================== CONTAINER =============================== */
+
+.container__form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__left {
+
+}
+
+.form__title {
+    width: 70%;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #202336;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.form__text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #202336;
+}
+
+.form__left hr {
+    background-color: #202336;
+    width: 35px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.form__input {
+    width: 90%; /* 65% */
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+select:nth-child(2n+1) {
+    margin-right: 15px;
+}
+
+.form__input select {
+    width: 200px; 
+    height: 45px;
+
+    padding-left: 20px;
+    border: 0.8px solid #AFB0B9;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    margin-bottom: 30px;
+}
+
+.btn button {    
+    Width: 160px;
+    Height: 45px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    background-color: #FB8F1D;
+    border-radius: 8px;
+    border: #FB8F1D;
+}
+
+.btn button:hover {  
+    background-color: #b96913;
+    border: #b96913;
+}
+
+.form__right img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* =============================== ABOUT =================================== */
+
+.container__about {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 100px;
+}
+
+.about__left {
+    width: 45%;
+}
+
+.about__left img{
+    max-width: 100%;
+    height: auto;
+}
+
+.about__right {
+    width: 40%;
+
+    margin-right: 8%;
+}
+
+.about__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+
+    margin-top: 30px;
+}
+
+.about__text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+
+    margin-top: 20px;
+}
+
+.about__right .btn {
+    margin-top: 30px;
+}
+
+/* =============================== CARD =================================== */
+
+.container__card {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 80px;
+}
+
+.content__item__card {
+    width: 90%;
+}
+
+.card__top {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+}
+
+.top__left {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.top__right a{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 65px;
+    color: #FB8F1D;
+}
+
+.top__right a:hover{
+    text-decoration: underline; 
+    color: #c06f19;
+}
+
+.top__right::after{
+    content: url('../img/Vector\ 1.png');
+    margin-left: 10px;
+}
+
+.card__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 22%;
+    height: 300px;
+
+    display: flex;
+    align-items: flex-end;
+
+    border-radius: 8px;
+
+}
+
+.card__text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    color: #042521;
+    background-color: white;
+    border-radius: 0px 6px 0px 0px;
+
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.card__text span{
+    font-size: 17px;
+    font-weight: 500;
+    color: #AFB0B9;
+}
+
+.item__1 {
+    background-image: url('../img/Screen\ Shot\ 2020-02-14\ at\ 4.36\ 1.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.item__2 {
+    background-image: url('../img/Screen\ Shot\ 2020-02-15\ at\ 11.04\ 1.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.item__3 {
+    background-image: url('../img/image\ 4.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.item__4 {
+    background-image: url('../img/Screen\ Shot\ 2020-02-15\ at\ 11.10\ 1.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+/* =============================== TRAVEL =================================== */
+
+.container__travel {
+    display: flex;
+
+    margin-top: 100px;
+}
+
+.travel__left {
+    width: 60%;
+}
+
+.travel__title {
+    width: 60%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+
+    margin-top: 80px;
+}
+
+.travel__text {   
+    width: 60%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+
+    margin-top: 20px;
+}
+
+.travel__left .btn {    
+    margin-top: 30px;
+}
+
+.travel__right {
+
+}
+
+.travel__right img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* =============================== FEEDBACK =================================== */
+
+.container__feedback {
+    margin-top: 80px; 
+    margin-bottom: 100px;                                                       
+}
+
+.feedback__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.content__feedback {
+    width: 90%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 50px;
+}
+
+.feedback__left {
+    width: 40%;
+
+    margin-top: 50px;
+}
+
+.left__stars {
+
+}
+
+.left__comment {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+
+    margin-top: 30px;
+}
+
+.left__author {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+    color: #000000;
+
+    margin-top: 30px;
+}
+
+.left__profession {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.feedback__right {
+
+}
+
+.feedback__right img{
+    border-radius: 14px;
+
+    max-width: 100%;
+    height: auto;
+}
+
+/* =============================== CARD (ITEM) =================================== */
+
+.card__bottom {
+
+}
+
+.item {  
+
+    width: 23.5%;
+}
+
+.item img {
+    height: 50%;
+    width: 100%;
+}
+
+.item__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 30px;   
+    color: #000000;
+
+    margin-top: 10px;
+}
+
+.item__content {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    color: #7D7987;
+
+    margin-top: 25px;
+}
+
+.btn__more {
+    margin-top: 10px;
+}
+
+.btn__more a{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FB8F1D;
+}
+
+.btn__more a:hover{
+    text-decoration: underline; 
+    color: #c06f19;
+}
+
+
+
+@media screen and (max-width:618px) {
+
+    main {
+        padding: 15px 0;
+    }
+
+    .container {
+        width: 75%;
+
+    }
+
+    /* =============================== CONTAINER =================================== */
+
+    .container__form {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .form__title {
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        
+        margin-top: 10px;
+    }
+
+    .form__text {
+        font-size: 19px;
+    }
+
+    .form__left hr {
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
+
+    select:nth-child(2n+1) {
+        margin-right: 0px;
+    }
+
+    .form__right {
+        margin: 0 auto;
+    }
+
+    .form__right img{
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .form__input {
+        width: 100%;
+    }
+
+    .form__input select {
+        width: 100%; 
+        height: 50px;
+        padding-left: 20px;
+    
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn button {
+        Width: 180px;
+        Height: 50px;
+    }
+
+    /* =============================== ABOUT =================================== */
+
+    .container__about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    .about__left {
+        width: 100%;
+    }
+       
+    .about__right {
+        width: 100%;
+        margin-right: 0%;
+    }
+    
+    .about__title {
+        font-size: 22px;
+        line-height: 25px;
+
+        margin-top: 25px;
+    }
+    
+    .about__text {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 30px;
+        color: #7D7987;
+    
+        margin-top: 20px;
+    }
+    
+    .about__right .btn {
+        margin-top: 30px;
+    }
+
+    /* =============================== CARD =================================== */
+
+    .container__card {
+        height: 1400px;
+    
+        display: flex;
+        justify-content: center;
+    
+        margin-top: 40px;
+    }
+    
+    .content__item__card {
+        width: 100%;
+    }
+    
+    .card__top {
+        display: flex;
+        flex-direction: column;
+    
+        margin-bottom: 20px;
+    }
+    
+    .top__left {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    
+    .top__right {
+        font-size: 17px;
+        line-height: 50px;
+    }
+    
+    .card__bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card {       
+        min-width: 200px;
+        height: 290px;
+    
+        display: flex;
+        align-items: flex-end;
+    
+        border-radius: 8px;
+
+        margin-top: 20px;
+    }
+
+    /* =============================== TRAVEL =================================== */
+
+    .container__item {    
+        display: flex;
+        justify-content: center;
+    
+        margin-top: 40px;
+    }
+
+    .container__travel {
+        height: 610px;
+
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+
+        margin-top: 60px;
+    }
+
+    .travel__left {
+        width: 100%;
+    }
+
+    .travel__title {
+        width: 100%;
+
+        font-size: 25px;
+        line-height: 35px;
+
+        margin-top: 20px;
+    }
+
+    .travel__text {   
+        width: 100%;
+    }
+  
+    /* =============================== FEEDBACK =================================== */
+
+    .container__feedback {
+        margin-top: 60px; 
+        margin-bottom: 70px; 
+    }
+
+    .feedback__title {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;                          
+    }
+
+    .content__feedback {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+
+        margin-top: 20px;
+    }
+
+    .feedback__left {
+        width: 100%;
+
+        margin-top: 20px;
+    }
+
+    .left__stars {
+        text-align: center;                          
+    }
+
+    .left__comment {
+        font-size: 20px;
+        line-height: 36px;
+
+        margin-top: 20px;
+    }
+
+    .left__author {
+        font-size: 20px;
+        line-height: 40px;
+
+        margin-top: 20px;
+    }
+
+    .left__profession {
+        font-size: 16px;
+        font-style: italic;
+    }
+
+    .feedback__right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .feedback__right img{
+        border-radius: 14px;
+    }
+
+    /* =============================== CARD (ITEM) =================================== */
+    
+    .item {
+        width: 100%;
+
+        margin-top: 50px;
+    }
+
+    .item:first-child {
+        margin-top: 0px;
+    }
+    
+    .item img {
+        height: 50%;
+        width: 100%;
+        
+        border-radius: 15px;
+    }
+    
+    .item__title {
+        font-size: 20px;
+    
+        margin-top: 25px;
+    }
+    
+    .item__content {
+        font-size: 15px;
+    
+        margin-top: 20px;
+    }
+
+    .btn__more {
+        margin-top: 20px;
+
+    }
+    
+    .btn__more a{
+        font-size: 18px;
+        line-height: 28px;
+    
+    }
+}
+
