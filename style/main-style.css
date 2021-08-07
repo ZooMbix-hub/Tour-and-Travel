@@ -51,7 +51,7 @@ main {
 }
 
 .form__input {
-    width: 90%; /* 65% */
+    width: 75%; /* 65% */
 
     display: flex;
     flex-wrap: wrap;
