@@ -207,5 +207,9 @@ footer {
         -o-transition: all 0.3s ease-out;
         -webkit-transition: all 0.3s ease-out;
     }
+    
+    .fa-youtube {
+        margin-right: 0px;
+    } 
 
 }
